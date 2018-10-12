@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@font-face 
+{
+    font-family: headerFont;
+    src: url("fonts/AmazoneBT.ttf");
+}
+
+#header
+{
+	background-image: url("images/headerBg.jpg");
+	font-family: headerFont;
+	text-align: center;
+	margin-top: 0;
+	margin: 0;
+	position: fixed;
+	width: 100%;
+}
+
+@font-face 
+{
+    font-family: bodyFont;
+    src: url("fonts/OstrichSans/OstrichSansBold.otf");
+}
+
+body
+{
+	font-family:bodyFont;
+	margin: 0;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #4CAF50;
+    position: fixed;
+    margin-top: 1.27cm;
+    width: 100%;
+}
+
+li 
+{
+    float: left;
+}
+
+li a, .dropbtn 
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn 
+{
+    background-color: #3e8e41;
+}
+
+li.dropdown 
+{
+    display: inline-block;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+.button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button:hover
+{
+	background-color: #3e8e41;
+}
+
+@font-face
+{
+	font-family: headingFont;
+	src: url("fonts/BAAH.ttf");
+}
+
+.heading
+{
+	text-align: center;
+	padding: 30px 50px 0px 30px;
+	font-size: 80px;
+	color: white;
+	font-family: headingFont;
+}
+
+body
+{
+	background: url("images/indexHeader.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: 20px;
+}
+
+#footer
+{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    margin-bottom:0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    display: inline-block;
+    font-family: bodyFont;
+    font-size: 14px;
+}
